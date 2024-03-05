@@ -1,0 +1,14 @@
+.footer {
+    background-color: hsl(0, 0%, 20%);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .footer p {
+    margin: 0;
+  }
+  .custom-bg-color {
+    background-color: #333;
+  }
+  
