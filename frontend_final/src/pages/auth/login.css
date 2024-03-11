@@ -1,0 +1,104 @@
+.app {
+    /* font-family: "Cambria", Cochin, Georgia, Times, "Times New Roman", serif; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    height: 100vh;
+    background:linear-gradient(rgba(35,35,35,0.800),rgba(35,35,35,0.800)),url("../../assets/images/lbr.jpg") no-repeat;
+    background-size: cover;
+  }
+  
+  .login-form {
+    /* background-color: rgb(54,69,79);
+    padding: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 8px; */
+    width: 420px;
+    background-color: transparent;
+    color: #d4cfcf;
+    border-radius: 10px;
+    padding: 30px 40px;
+  }
+  
+  .title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    /* font-weight: bold; */
+    text-align: center;
+    color: #d4cfcf; /* Adjust the color to your preference */
+  }
+  .login-form input{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 20px 0;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 1px solid rgba(165, 162, 162, 0.2);
+    border-radius: 3rem;
+    color: rgb(231, 230, 230);
+    /* padding: 20px 45px 20px 20px; */
+  }
+  
+  input[type="email"] {
+    height: 40px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    font-size: 16px;
+  }
+  input[type="text"],
+  input[type="password"] {
+    height: 40px;
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #828080;
+    border-radius: 40px;
+    font-size: 16px;
+  }
+  
+  input[type="submit"] {
+    /* margin-top: 20px; */
+    cursor: pointer;
+    font-size: 18px;
+    /* background: #B68D40; */
+    background: rgb(29, 28, 28);
+    /* border: 1px solid #ffffff; */
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 40px;
+  }
+  
+  /* input[type="submit"]:hover {
+    background:#D6AD60
+  } */
+  
+  .button {
+    display: flex;
+    justify-content: center;
+  }
+  .input input[type="radio"] {
+    margin-right: 2px;
+    margin-left: 40px;
+  }
+  .signup-link {
+    margin-top: 15px;
+    text-align: center;
+    color: #fff; /* Adjust the color to your preference */
+  }
+  
+  .signup-link a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .signup-link a:hover {
+    /* color:#D6AD60; */
+    text-decoration: underline;
+  }

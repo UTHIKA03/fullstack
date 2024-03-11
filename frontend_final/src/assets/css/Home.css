@@ -1,0 +1,45 @@
+/* Home.css */
+
+/* .home {
+    position: relative;
+  }
+  
+  .hero-section {
+    background-image: url('../assets/images/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hero-section h1 {
+    color: #fff;
+    font-size: 2.5rem;
+    text-align: center;
+  } */
+  .flex {
+    
+    margin-top: 10px; /* Adjust the margin-top value as needed */
+  }
+  section{
+    min-height: calc(100vh - 100px);
+    background: #DFD7BF;
+    /* margin-top: 0px; */
+  }
+  
+  /* Rest of your existing CSS styles for the Home component */
+  
+  .button-container {
+    display: flex;
+  }
+  /* .header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 999;
+  } */
+  

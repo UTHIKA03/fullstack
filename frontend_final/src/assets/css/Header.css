@@ -1,0 +1,49 @@
+/* Header.css
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+  .logo {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .nav-menu {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-menu li {
+    margin-right: 20px;
+  }
+  
+  .nav-menu li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .nav-menu li a:hover {
+    text-decoration: underline;
+  } */
+  .profile-icon {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .arrow-icon {
+    width: 20px;
+    height: 20px;
+  }
+  header {
+      background-color: #3F2305;
+      top: 0;
+      margin-top: -10px;
+      margin-bottom: -10px;
+      
+    }
+  

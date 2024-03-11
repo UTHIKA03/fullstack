@@ -1,0 +1,130 @@
+.enquiry-popup {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+  }
+  
+  .enquiry-form {
+    background-color: #fefefe;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .enquiry-form h2 {
+    margin-bottom: 20px;
+  }
+  
+  .enquiry-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .enquiry-form input,
+  .enquiry-form textarea,
+  .enquiry-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .enquiry-form .submit-button,
+  .enquiry-form .close-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .open-button {
+    /* background-color: #4caf50; */
+    color:#333;
+    /* padding: 10px 20px; */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .submit-button {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .close-button {
+    background-color: #f44336;
+    color: white;
+  }
+  .payment-form-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    z-index: 999; /* Ensure it appears above other content */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .payment-form-modal-content {
+    background-color: #fff; /* White background for the modal content */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Drop shadow effect */
+    max-width: 80%;
+    overflow: auto; /* Enable scrolling if content exceeds modal size */
+  }
+  
+  .payment-form-modal-content .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 24px;
+    color: #020202; /* Close icon color */
+  }
+  
+  /* Style for form elements */
+  .payment-form-modal-content form {
+    margin-top: 20px;
+  }
+  
+  .payment-form-modal-content label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .payment-form-modal-content input[type="text"],
+  .payment-form-modal-content input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .payment-form-modal-content button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .payment-form-modal-content button:hover {
+    background-color: #0056b3;
+  }
+  
